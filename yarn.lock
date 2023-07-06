@@ -2629,6 +2629,66 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@honeybook/jest-environment-jsdom@workspace:^, @honeybook/jest-environment-jsdom@workspace:packages/jest-environment-jsdom":
+  version: 0.0.0-use.local
+  resolution: "@honeybook/jest-environment-jsdom@workspace:packages/jest-environment-jsdom"
+  dependencies:
+    "@honeybook/jsdom": 20.1.1
+    "@jest/environment": ^29.3.1
+    "@jest/fake-timers": ^29.3.1
+    "@jest/test-utils": ^29.3.1
+    "@jest/types": ^29.3.1
+    "@types/jsdom": ^20.0.0
+    "@types/node": "*"
+    jest-mock: ^29.3.1
+    jest-util: ^29.3.1
+  peerDependencies:
+    canvas: ^2.5.0
+  peerDependenciesMeta:
+    canvas:
+      optional: true
+  languageName: unknown
+  linkType: soft
+
+"@honeybook/jsdom@npm:20.1.1":
+  version: 20.1.1
+  resolution: "@honeybook/jsdom@npm:20.1.1"
+  dependencies:
+    abab: ^2.0.6
+    acorn: ^8.8.1
+    acorn-globals: ^7.0.0
+    cssom: ^0.5.0
+    cssstyle: ^2.3.0
+    data-urls: ^3.0.2
+    decimal.js: ^10.4.2
+    domexception: ^4.0.0
+    escodegen: ^2.0.0
+    form-data: ^4.0.0
+    html-encoding-sniffer: ^3.0.0
+    http-proxy-agent: ^5.0.0
+    https-proxy-agent: ^5.0.1
+    is-potential-custom-element-name: ^1.0.1
+    nwsapi: ^2.2.2
+    parse5: ^7.1.1
+    saxes: ^6.0.0
+    symbol-tree: ^3.2.4
+    tough-cookie: ^4.1.2
+    w3c-xmlserializer: ^4.0.0
+    webidl-conversions: ^7.0.0
+    whatwg-encoding: ^2.0.0
+    whatwg-mimetype: ^3.0.0
+    whatwg-url: ^11.0.0
+    ws: ^8.11.0
+    xml-name-validator: ^4.0.0
+  peerDependencies:
+    canvas: ^2.5.0
+  peerDependenciesMeta:
+    canvas:
+      optional: true
+  checksum: 5053e626a628a21c9a899d17da704955ad7ac87a8500c2c75f9ab6e4d24bddb64ac18216cce70107f124ccbd70c0b7b3c6868732592a83fe5a6db241183dd6dc
+  languageName: node
+  linkType: hard
+
 "@humanwhocodes/config-array@npm:^0.11.8":
   version: 0.11.8
   resolution: "@humanwhocodes/config-array@npm:0.11.8"
@@ -2771,7 +2831,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jest/environment@workspace:^, @jest/environment@workspace:packages/jest-environment":
+"@jest/environment@^29.3.1, @jest/environment@workspace:^, @jest/environment@workspace:packages/jest-environment":
   version: 0.0.0-use.local
   resolution: "@jest/environment@workspace:packages/jest-environment"
   dependencies:
@@ -2805,7 +2865,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jest/fake-timers@workspace:^, @jest/fake-timers@workspace:packages/jest-fake-timers":
+"@jest/fake-timers@^29.3.1, @jest/fake-timers@workspace:^, @jest/fake-timers@workspace:packages/jest-fake-timers":
   version: 0.0.0-use.local
   resolution: "@jest/fake-timers@workspace:packages/jest-fake-timers"
   dependencies:
@@ -3024,7 +3084,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@jest/test-utils@workspace:^, @jest/test-utils@workspace:packages/test-utils":
+"@jest/test-utils@^29.3.1, @jest/test-utils@workspace:^, @jest/test-utils@workspace:packages/test-utils":
   version: 0.0.0-use.local
   resolution: "@jest/test-utils@workspace:packages/test-utils"
   dependencies:
@@ -3068,6 +3128,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@jest/types@^29.3.1, @jest/types@workspace:^, @jest/types@workspace:packages/jest-types":
+  version: 0.0.0-use.local
+  resolution: "@jest/types@workspace:packages/jest-types"
+  dependencies:
+    "@jest/schemas": "workspace:^"
+    "@tsd/typescript": ^5.0.4
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^17.0.8
+    chalk: ^4.0.0
+    tsd-lite: ^0.7.0
+  languageName: unknown
+  linkType: soft
+
 "@jest/types@npm:^26.6.2":
   version: 26.6.2
   resolution: "@jest/types@npm:26.6.2"
@@ -3093,21 +3168,6 @@ __metadata:
   checksum: d1f43cc946d87543ddd79d49547aab2399481d34025d5c5f2025d3d99c573e1d9832fa83cef25e9d9b07a8583500229d15bbb07b8e233d127d911d133e2f14b1
   languageName: node
   linkType: hard
-
-"@jest/types@workspace:^, @jest/types@workspace:packages/jest-types":
-  version: 0.0.0-use.local
-  resolution: "@jest/types@workspace:packages/jest-types"
-  dependencies:
-    "@jest/schemas": "workspace:^"
-    "@tsd/typescript": ^5.0.4
-    "@types/istanbul-lib-coverage": ^2.0.0
-    "@types/istanbul-reports": ^3.0.0
-    "@types/node": "*"
-    "@types/yargs": ^17.0.8
-    chalk: ^4.0.0
-    tsd-lite: ^0.7.0
-  languageName: unknown
-  linkType: soft
 
 "@jridgewell/gen-mapping@npm:^0.3.0, @jridgewell/gen-mapping@npm:^0.3.2":
   version: 0.3.3
@@ -5780,12 +5840,12 @@ __metadata:
     "@babel/plugin-proposal-decorators": "*"
     "@babel/preset-env": ^7.1.0
     "@babel/preset-typescript": ^7.0.0
+    "@honeybook/jest-environment-jsdom": "workspace:^"
     "@jest/globals": "workspace:^"
     babel-jest: "workspace:^"
     babel-plugin-transform-typescript-metadata: "*"
     core-js: ^3.2.1
     jest: "workspace:^"
-    jest-environment-jsdom: "workspace:^"
     jest-zone-patch: "*"
     rxjs: ^7.5.5
     tslib: ^2.0.0
@@ -9517,9 +9577,9 @@ __metadata:
   dependencies:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.1.0
+    "@honeybook/jest-environment-jsdom": "workspace:^"
     babel-jest: "workspace:^"
     jest: "workspace:^"
-    jest-environment-jsdom: "workspace:^"
     jquery: ^3.2.1
   languageName: unknown
   linkType: soft
@@ -9568,10 +9628,10 @@ __metadata:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.1.0
     "@babel/preset-react": ^7.12.1
+    "@honeybook/jest-environment-jsdom": "workspace:^"
     "@testing-library/react": ^14.0.0
     babel-jest: "workspace:^"
     jest: "workspace:^"
-    jest-environment-jsdom: "workspace:^"
     react: 18.2.0
     react-dom: ^18.2.0
   languageName: unknown
@@ -9584,9 +9644,9 @@ __metadata:
     "@babel/core": ^7.11.6
     "@babel/preset-env": ^7.1.0
     "@babel/preset-react": ^7.12.1
+    "@honeybook/jest-environment-jsdom": "workspace:^"
     babel-jest: "workspace:^"
     jest: "workspace:^"
-    jest-environment-jsdom: "workspace:^"
     react: 18.2.0
     react-dom: ^18.2.0
   languageName: unknown
@@ -9625,10 +9685,10 @@ __metadata:
     "@babel/preset-env": ^7.1.0
     "@babel/preset-react": ^7.12.1
     "@babel/preset-typescript": ^7.0.0
+    "@honeybook/jest-environment-jsdom": "workspace:^"
     "@jest/globals": "workspace:^"
     babel-jest: "workspace:^"
     jest: "workspace:^"
-    jest-environment-jsdom: "workspace:^"
     react: 18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.4
@@ -12600,27 +12660,6 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jest-environment-jsdom@workspace:^, jest-environment-jsdom@workspace:packages/jest-environment-jsdom":
-  version: 0.0.0-use.local
-  resolution: "jest-environment-jsdom@workspace:packages/jest-environment-jsdom"
-  dependencies:
-    "@jest/environment": "workspace:^"
-    "@jest/fake-timers": "workspace:^"
-    "@jest/test-utils": "workspace:^"
-    "@jest/types": "workspace:^"
-    "@types/jsdom": ^20.0.0
-    "@types/node": "*"
-    jest-mock: "workspace:^"
-    jest-util: "workspace:^"
-    jsdom: ^20.0.0
-  peerDependencies:
-    canvas: ^2.5.0
-  peerDependenciesMeta:
-    canvas:
-      optional: true
-  languageName: unknown
-  linkType: soft
-
 "jest-environment-node@workspace:^, jest-environment-node@workspace:packages/jest-environment-node":
   version: 0.0.0-use.local
   resolution: "jest-environment-node@workspace:packages/jest-environment-node"
@@ -12753,7 +12792,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"jest-mock@workspace:^, jest-mock@workspace:packages/jest-mock":
+"jest-mock@^29.3.1, jest-mock@workspace:^, jest-mock@workspace:packages/jest-mock":
   version: 0.0.0-use.local
   resolution: "jest-mock@workspace:packages/jest-mock"
   dependencies:
@@ -13007,6 +13046,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"jest-util@^29.3.1, jest-util@workspace:^, jest-util@workspace:packages/jest-util":
+  version: 0.0.0-use.local
+  resolution: "jest-util@workspace:packages/jest-util"
+  dependencies:
+    "@jest/types": "workspace:^"
+    "@types/graceful-fs": ^4.1.3
+    "@types/node": "*"
+    "@types/picomatch": ^2.2.2
+    chalk: ^4.0.0
+    ci-info: ^3.2.0
+    graceful-fs: ^4.2.9
+    picomatch: ^2.2.3
+  languageName: unknown
+  linkType: soft
+
 "jest-util@npm:^26.0.0":
   version: 26.6.2
   resolution: "jest-util@npm:26.6.2"
@@ -13034,21 +13088,6 @@ __metadata:
   checksum: ac8d122f6daf7a035dcea156641fd3701aeba245417c40836a77e35b3341b9c02ddc5d904cfcd4ddbaa00ab854da76d3b911870cafdcdbaff90ea471de26c7d7
   languageName: node
   linkType: hard
-
-"jest-util@workspace:^, jest-util@workspace:packages/jest-util":
-  version: 0.0.0-use.local
-  resolution: "jest-util@workspace:packages/jest-util"
-  dependencies:
-    "@jest/types": "workspace:^"
-    "@types/graceful-fs": ^4.1.3
-    "@types/node": "*"
-    "@types/picomatch": ^2.2.2
-    chalk: ^4.0.0
-    ci-info: ^3.2.0
-    graceful-fs: ^4.2.9
-    picomatch: ^2.2.3
-  languageName: unknown
-  linkType: soft
 
 "jest-validate@npm:^26.5.2":
   version: 26.6.2
@@ -13314,45 +13353,6 @@ __metadata:
   version: 4.0.0
   resolution: "jsdoc-type-pratt-parser@npm:4.0.0"
   checksum: af0629c9517e484be778d8564440fec8de5b7610e0c9c88a3ba4554321364faf72b46689c8d8845faa12c0718437a9ed97e231977efc0f2d50e8a2dbad807eb3
-  languageName: node
-  linkType: hard
-
-"jsdom@npm:^20.0.0":
-  version: 20.0.3
-  resolution: "jsdom@npm:20.0.3"
-  dependencies:
-    abab: ^2.0.6
-    acorn: ^8.8.1
-    acorn-globals: ^7.0.0
-    cssom: ^0.5.0
-    cssstyle: ^2.3.0
-    data-urls: ^3.0.2
-    decimal.js: ^10.4.2
-    domexception: ^4.0.0
-    escodegen: ^2.0.0
-    form-data: ^4.0.0
-    html-encoding-sniffer: ^3.0.0
-    http-proxy-agent: ^5.0.0
-    https-proxy-agent: ^5.0.1
-    is-potential-custom-element-name: ^1.0.1
-    nwsapi: ^2.2.2
-    parse5: ^7.1.1
-    saxes: ^6.0.0
-    symbol-tree: ^3.2.4
-    tough-cookie: ^4.1.2
-    w3c-xmlserializer: ^4.0.0
-    webidl-conversions: ^7.0.0
-    whatwg-encoding: ^2.0.0
-    whatwg-mimetype: ^3.0.0
-    whatwg-url: ^11.0.0
-    ws: ^8.11.0
-    xml-name-validator: ^4.0.0
-  peerDependencies:
-    canvas: ^2.5.0
-  peerDependenciesMeta:
-    canvas:
-      optional: true
-  checksum: 6e2ae21db397133a061b270c26d2dbc0b9051733ea3b896a7ece78d79f475ff0974f766a413c1198a79c793159119169f2335ddb23150348fbfdcfa6f3105536
   languageName: node
   linkType: hard
 

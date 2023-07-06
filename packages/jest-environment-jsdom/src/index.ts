@@ -6,7 +6,7 @@
  */
 
 import type {Context} from 'vm';
-import {JSDOM, ResourceLoader, VirtualConsole} from 'jsdom';
+import {JSDOM, ResourceLoader, VirtualConsole} from '@honeybook/jsdom';
 import type {
   EnvironmentContext,
   JestEnvironment,

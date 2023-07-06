@@ -115,7 +115,7 @@ export const resolveTestEnvironment = ({
   } catch (error: any) {
     if (filePath === 'jest-environment-jsdom') {
       error.message +=
-        '\n\nAs of Jest 28 "jest-environment-jsdom" is no longer shipped by default, make sure to install it separately.';
+        '\n\nAs of Jest 28 "@honeybook/jest-environment-jsdom" is no longer shipped by default, make sure to install it separately.';
     }
 
     throw error;

@@ -1,6 +1,6 @@
 {
-  "name": "jest-environment-jsdom",
-  "version": "29.6.0",
+  "name": "@honeybook/jest-environment-jsdom",
+  "version": "29.6.5",
   "repository": {
     "type": "git",
     "url": "https://github.com/facebook/jest.git",
@@ -17,17 +17,17 @@
     "./package.json": "./package.json"
   },
   "dependencies": {
-    "@jest/environment": "workspace:^",
-    "@jest/fake-timers": "workspace:^",
-    "@jest/types": "workspace:^",
+    "@honeybook/jsdom": "20.1.1",
+    "@jest/environment": "^29.3.1",
+    "@jest/fake-timers": "^29.3.1",
+    "@jest/types": "^29.3.1",
     "@types/jsdom": "^20.0.0",
     "@types/node": "*",
-    "jest-mock": "workspace:^",
-    "jest-util": "workspace:^",
-    "jsdom": "^20.0.0"
+    "jest-mock": "^29.3.1",
+    "jest-util": "^29.3.1"
   },
   "devDependencies": {
-    "@jest/test-utils": "workspace:^"
+    "@jest/test-utils": "^29.3.1"
   },
   "peerDependencies": {
     "canvas": "^2.5.0"
@@ -42,5 +42,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "05deb8393c4ad71e19be2567b704dfd3a2ab5fc9"
 }
