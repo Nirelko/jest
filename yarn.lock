@@ -2633,7 +2633,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@honeybook/jest-environment-jsdom@workspace:packages/jest-environment-jsdom"
   dependencies:
-    "@honeybook/jsdom": 20.1.1
+    "@honeybook/jsdom": 20.2.2
     "@jest/environment": ^29.3.1
     "@jest/fake-timers": ^29.3.1
     "@jest/test-utils": ^29.3.1
@@ -2650,9 +2650,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@honeybook/jsdom@npm:20.1.1":
-  version: 20.1.1
-  resolution: "@honeybook/jsdom@npm:20.1.1"
+"@honeybook/jsdom@npm:20.2.2":
+  version: 20.2.2
+  resolution: "@honeybook/jsdom@npm:20.2.2"
   dependencies:
     abab: ^2.0.6
     acorn: ^8.8.1
@@ -2668,7 +2668,7 @@ __metadata:
     http-proxy-agent: ^5.0.0
     https-proxy-agent: ^5.0.1
     is-potential-custom-element-name: ^1.0.1
-    nwsapi: ^2.2.2
+    nwsapi: 2.2.5
     parse5: ^7.1.1
     saxes: ^6.0.0
     symbol-tree: ^3.2.4
@@ -2685,7 +2685,7 @@ __metadata:
   peerDependenciesMeta:
     canvas:
       optional: true
-  checksum: 5053e626a628a21c9a899d17da704955ad7ac87a8500c2c75f9ab6e4d24bddb64ac18216cce70107f124ccbd70c0b7b3c6868732592a83fe5a6db241183dd6dc
+  checksum: a37f6a912a5f203dbef9a13fa6df8cbd7c0a9aea2d9ad65736c91f5c18f2b4df8c576c886a454f95534ad3aa5424682c71f219f2dc51d7a5bc424952c6b30e66
   languageName: node
   linkType: hard
 
@@ -15667,10 +15667,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nwsapi@npm:^2.2.2":
-  version: 2.2.4
-  resolution: "nwsapi@npm:2.2.4"
-  checksum: a5eb9467158bdf255d27e9c4555e9ca02e4ba84ddce9b683856ed49de23eb1bb28ae3b8e791b7a93d156ad62b324a56f4d44cad827c2ca288c107ed6bdaff8a8
+"nwsapi@npm:2.2.5":
+  version: 2.2.5
+  resolution: "nwsapi@npm:2.2.5"
+  checksum: 3acfe387214e2a9a03960662ad600ecb41fc24385c9de91262a881608407f02d14686e5df3e6e87af0cf7b173ed2a6a202a569ab7bef376ec1841cd9b6cbf0a6
   languageName: node
   linkType: hard
 
